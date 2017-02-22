@@ -1,0 +1,28 @@
+{
+	"fields": [
+		{
+			"name": "Category",
+			"title": "Type of Audit undertaken",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "AuditTitle",
+			"title": "Subject matter for the Audit",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "OutlineScope",
+			"title": "Brief description of what the Audit covered",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		}
+	]
+}
